@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy / Gizlilik Politikası — The Kareem Quran</title>
+  <meta name="description" content="Privacy Policy for The Kareem Quran mobile application.">
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --primary: #0f766e;
+      --primary-hover: #115e59;
+      --border: #e2e8f0;
+      --accent: #f0fdfa;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--primary);
+      color: white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      color: #0f172a;
+      font-weight: 700;
+    }
+
+    .lang-switcher {
+      display: inline-flex;
+      background: #e2e8f0;
+      padding: 4px;
+      border-radius: 10px;
+      gap: 4px;
+      width: fit-content;
+    }
+
+    .lang-btn {
+      border: none;
+      background: transparent;
+      padding: 8px 18px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 8px;
+      color: var(--text-muted);
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background: #ffffff;
+      color: var(--primary);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .updated-date {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .policy-content {
+      display: none;
+    }
+
+    .policy-content.active {
+      display: block;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #334155;
+    }
+
+    ul {
+      margin-bottom: 1.25rem;
+      padding-left: 1.5rem;
+      color: #334155;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .highlight-box {
+      background: var(--accent);
+      border-left: 4px solid var(--primary);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    .contact-box {
+      background: #f1f5f9;
+      padding: 1.25rem;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.35rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="brand-icon">Q</div>
+        <div>
+          <h1>The Kareem Quran</h1>
+          <p class="updated-date" id="date-label">Son Güncelleme / Last Updated: 12 Ekim 2026</p>
+        </div>
+      </div>
+
+      <div class="lang-switcher">
+        <button class="lang-btn active" onclick="switchLang('tr')">🇹🇷 Türkçe</button>
+        <button class="lang-btn" onclick="switchLang('en')">🇬🇧 English</button>
+      </div>
+    </header>
+
+    <!-- TÜRKÇE İÇERİK -->
+    <article id="content-tr" class="policy-content active">
+      <div class="highlight-box">
+        <strong>Özet:</strong> The Kareem Quran uygulaması hiçbir kişisel bilginizi toplamaz, kayıt altına almaz ve harici sunuculara göndermez. Tüm ayarlar ve okuma verileri yalnızca cihazınızda saklanır.
+      </div>
+
+      <h2>1. Genel Bakış ve Taahhüdümüz</h2>
+      <p>
+        <strong>The Kareem Quran</strong> ("Uygulama") olarak kullanıcılarımızın gizliliğine ve kişisel verilerinin güvenliğine en üst düzeyde saygı gösteriyoruz. Bu Gizlilik Politikası belgesi, uygulamayı kullanırken verilerinizin nasıl (ve neden) işlendiğini açıklar.
+      </p>
+
+      <h2>2. Toplanan Bilgiler ve Veri İşleme</h2>
+      <p>Uygulamamız gizlilik odaklı olarak tasarlanmıştır:</p>
+      <ul>
+        <li><strong>Hesap ve Giriş Yok:</strong> Uygulamayı kullanmak için herhangi bir üyelik, kayıt, e-posta veya kimlik doğrulaması gerekmez.</li>
+        <li><strong>Kişisel Veri Toplanmaz:</strong> Ad, soyad, konum, rehber, IP adresi veya cihaz kimliği (Advertising ID) gibi hiçbir kişisel veri toplanmaz veya takip edilmez.</li>
+        <li><strong>Cihaz Dili Bilgisi:</strong> Uygulama, ilk açılışta ve arayüzde uygun varsayılan Mushaf ve dil seçeneğini sunabilmek amacıyla yalnızca cihazınızın sistem dil ayarını okur. Bu işlem tamamen yerel (cihaz içi) yürütülür ve internete veya herhangi bir uzak sunucuya kesinlikle gönderilmez.</li>
+      </ul>
+
+      <h2>3. Verilerin Yerel Saklanması (Local Storage)</h2>
+      <p>
+        Uygulama içerisindeki okuma geçmişi, kaldığınız sayfa, cüz/sure kayıtları, yer imleri, hatim takibi ve tercih ettiğiniz Mushaf ayarları yalnızca cihazınızın yerel depolama alanında saklanır.
+      </p>
+      <p>
+        Bu veriler cihazınız dışına asla aktarılmaz. İstediğiniz zaman uygulamanın verilerini temizleyerek veya uygulamayı kaldırarak bu kayıtları tamamen silebilirsiniz.
+      </p>
+
+      <h2>4. Harici Sunucular ve Üçüncü Taraf Hizmetleri</h2>
+      <p>
+        Uygulama içerisinde kullanıcı hareketlerini izleyen harici reklam ağları (AdMob, Unity vb.) veya analiz/telemetri kütüphaneleri (Google Analytics, Firebase vb.) bulunmamaktadır.
+      </p>
+
+      <h2>5. Çocukların Gizliliği</h2>
+      <p>
+        Uygulamamız hiçbir kişisel bilgi toplamadığı için çocukların gizliliğini ihlal edecek bir veri işleme faaliyeti de söz konusu değildir. Uygulama her yaştan kullanıcının güvenle kullanımı için uygundur.
+      </p>
+
+      <h2>6. Politika Değişiklikleri</h2>
+      <p>
+        Gizlilik politikamızda yapılabilecek güncellemeler bu sayfa üzerinden duyurulacaktır. Değişiklikler bu adreste yayınlandığı andan itibaren geçerli sayılır.
+      </p>
+
+      <div class="contact-box">
+        <h2>7. İletişim</h2>
+        <p>Gizlilik politikamızla ilgili soru, geri bildirim veya önerileriniz için bizimle iletişime geçebilirsiniz:</p>
+        <p><strong>E-posta:</strong> <a href="mailto:ferhatyalin@gmail.com">ferhatyalin@gmail.com</a></p>
+      </div>
+    </article>
+
+    <!-- ENGLISH CONTENT -->
+    <article id="content-en" class="policy-content">
+      <div class="highlight-box">
+        <strong>Summary:</strong> The Kareem Quran application does not collect, track, or transmit any personal information to external servers. All settings and reading data are stored solely on your device.
+      </div>
+
+      <h2>1. Overview and Commitment</h2>
+      <p>
+        <strong>The Kareem Quran</strong> ("Application") is committed to protecting your privacy. This Privacy Policy outlines our practices regarding data handling and ensures transparency while you use our application.
+      </p>
+
+      <h2>2. Information Collection and Usage</h2>
+      <p>Our application is engineered with a strict privacy-first architecture:</p>
+      <ul>
+        <li><strong>No Account Required:</strong> You do not need to register, create an account, or log in to use any feature of the application.</li>
+        <li><strong>No Personal Data Collected:</strong> We do not collect names, email addresses, contact lists, GPS location, IP addresses, or advertising identifiers.</li>
+        <li><strong>Device Language:</strong> The application queries your device's system language locally solely to determine the appropriate initial interface language and default Mushaf selection. This process happens entirely on your device and is never transmitted across the network.</li>
+      </ul>
+
+      <h2>3. Local Storage</h2>
+      <p>
+        All user preferences, reading bookmarks, completed juz/surah records, hatim progress, and selected Mushaf options are stored exclusively within your device's local database/storage.
+      </p>
+      <p>
+        This information never leaves your device. You can erase all stored records at any time by clearing the application's data through system settings or by uninstalling the application.
+      </p>
+
+      <h2>4. Third-Party Services and Analytics</h2>
+      <p>
+        We do not utilize any third-party tracking, profiling, advertising SDKs (e.g., AdMob), or telemetry engines (e.g., Google Analytics, Firebase Analytics).
+      </p>
+
+      <h2>5. Children's Privacy</h2>
+      <p>
+        Because we do not collect any personal data, our application complies fully with child privacy standards (including COPPA and Google Play Families Policy). It is safe for audiences of all ages.
+      </p>
+
+      <h2>6. Changes to This Privacy Policy</h2>
+      <p>
+        We may update our Privacy Policy periodically. Any modifications will be posted directly to this URL and will take effect immediately upon publication.
+      </p>
+
+      <div class="contact-box">
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, concerns, or feedback regarding this Privacy Policy, feel free to contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:ferhatyalin@gmail.com">ferhatyalin@gmail.com</a></p>
+      </div>
+    </article>
+
+    <footer>
+      &copy; 2026 The Kareem Quran. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.policy-content').forEach(content => content.classList.remove('active'));
+
+      if (lang === 'tr') {
+        document.querySelector('.lang-btn:nth-child(1)').classList.add('active');
+        document.getElementById('content-tr').classList.add('active');
+        document.documentElement.lang = 'tr';
+      } else {
+        document.querySelector('.lang-btn:nth-child(2)').classList.add('active');
+        document.getElementById('content-en').classList.add('active');
+        document.documentElement.lang = 'en';
+      }
+    }
+  </script>
+</body>
+</html>
